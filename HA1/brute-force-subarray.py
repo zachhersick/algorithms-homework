@@ -12,6 +12,5 @@ def largest_subarray(nums):
     print(sums)
     return max(sums.values())
 
-print(largest_subarray([1, -2, 3, 4, 5, -6]))
-
-[1, 2, -1, 2, 3]
+nums = [1, -2, 3, 4, 5, -6]
+print(largest_subarray(nums))
