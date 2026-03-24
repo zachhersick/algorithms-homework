@@ -1,4 +1,10 @@
+# by Zach Hersick (programmer) and Christian Vaikona (navigator)
+
 def max_non_overlapping_intervals(nums):
+    """
+    uses recursion to check all possible subsets of intervals,
+    then returns the amount of non-overlapping intervals
+    """
     
     def build_subsets(current_index, current_subset):
         if current_index == len(nums):
